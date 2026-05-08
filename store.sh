@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+git pull
 git add .
 today="$(date +'%A, %d %B %Y')"
 git commit -m "diary entry for ${today}"
