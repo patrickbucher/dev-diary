@@ -13,7 +13,8 @@ fi
 
 if [ ! -e $file ]
 then
-    touch $file
+    title="# $(date +'%A, %d %B %Y')"
+    echo -e "${title}\n\n" > $file
 fi
 
 vim + $file
