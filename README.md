@@ -1,3 +1,3 @@
 # dev-diary
 
-Perosnal Developer Diary
+Personal Developer Diary
